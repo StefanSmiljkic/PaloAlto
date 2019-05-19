@@ -1,0 +1,592 @@
+body{
+
+	margin: 0;
+	padding: 0;
+	font-family: "Arial",sans-serif;
+	background-color:#F6FAFD;
+}
+@font-face {
+  font-family: Palo_Alto;
+  src: url(Palo_Alto_Oblique.woff);
+}
+
+.Nav_mainMenu{
+	display: inline;
+}
+.mainMenu{
+	position: relative;
+	word-spacing: 10px;
+	float: right;
+	padding-top: 2%;
+}
+.mainMenu>ul{
+	list-style-type: none;
+	text-transform: uppercase;	
+}
+.mainMenu>ul>li{
+	display: inline-block;
+}
+.mainMenu>ul>li>a{
+	text-decoration: none;
+	color: #000000;
+}
+.mainMenu>ul>li>a:hover{
+	color: red;
+}
+.Nav_mobileMenu{
+	display: none;
+}
+.bars{
+	font-size: 26pt;
+	float: right;
+	line-height: 0;
+}
+nav{
+	position: relative;
+	width: 70%;
+	margin-left: 15%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.logo{
+	float:left;	
+	position: 	absolute;
+	font-family: PaloAlto;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 28pt;
+	line-height: 6px;
+	padding-top: 3%;
+}
+.logo>a{
+	text-decoration: none;
+	color: #000000;
+}
+.content{
+	height: auto;
+	position: relative;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 5%;
+	background-color: #ffffff;
+	box-shadow: 0 0 10px #c6c6c6;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+
+}
+.iDoReflect{
+	position: absolute;
+	margin-top: -5%;
+	margin-left: 85%;
+	background-color: #3C5A99;
+	color: white;
+	padding: 0.5%;
+	font-size: 115%;
+	width: 10%;
+
+}
+.date{
+	color: gray;
+}
+.heading{
+	font-size: 17pt;
+}
+.headingUnderline{
+	background-color: transparent;
+	border-top: 1px solid #c9c9c9;
+}
+.statuePhoto{
+	float: left;
+	max-width: 100%;
+}
+.article{
+	font-size: 16pt;
+	line-height: 150%;
+}
+.definition{
+	border-left: 5px solid #808182;
+	padding: 2%;
+	color: #808182;
+}
+#tweet{
+	background-image: linear-gradient(#ffffff, #a8a8a8);
+	border:solid grey 1px;
+	border-radius: 3px;
+	margin-right: 3%;
+	font-weight: bold;
+}
+#tweet>i{
+	color: #00acee;
+}
+#facebook{
+	background-color: #3b5998;
+	border:solid #3b5998 1px;
+	border-radius: 3px;
+
+	margin-right: 3%;
+	color: white;
+}
+#googleplus{
+	background-color: #ffffff;
+	border:solid grey 1px;
+	border-radius: 1px;
+	font-weight: bold;
+	color: #d34836;
+
+	margin-right: 3%;
+}
+#pinterest{
+	background-image: linear-gradient(#ffffff, #a8a8a8);
+	border:solid grey 1px;
+	border-radius: 3px;
+	font-weight: bold;
+	font-style: italic;
+	margin-right: 3%;
+	color: #bd081c;
+}
+.socialNetworkButtons{
+	padding-bottom: 10%;
+}
+.hashtag{
+	float: right;
+	line-height: 0;
+	word-spacing: 10px;
+	color:#a5a5a5;
+}
+.articleUnderline{
+
+	position: absolute;
+	width: 100%;
+	margin-left: -7%;
+	background-color: transparent;
+	color: #808182;
+	border-top: 0.5px solid #808182;
+}
+.commentLine{
+	position: absolute;
+	width: 86%;
+}
+.comments{
+	color: #a5a5a5;
+	padding-top: 10%;
+	padding-bottom: 3%;
+	font-size: 11pt;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+
+}
+.commentsLeft{
+	float: left;
+	word-spacing: 10px;
+}
+.commentCounter{
+	color: black;
+}
+.commentsRight{
+	float: right;
+	color: #a5a5a5;
+}
+.commentsUnderline{
+	margin-top: 3%;
+	color: #a5a5a5;
+	padding-bottom: 3%;
+	font-size: 11pt;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+
+}
+.textArea{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.submitArea{
+	width: 90%;
+	height: 60px;
+	resize: none;
+	border-color: #a5a5a5;
+	color: #a5a5a5;
+	border-radius: 5px;
+	font-family: "Arial",sans-serif;
+	font-size: 16pt;
+	padding-top: 2%;
+	padding-left: 1%;
+	float: right;
+
+}
+.submit{
+	float: left;
+	color: white;
+	width: 7%;
+	height: 7%;
+	font-size: 36pt;
+	background-color: orange;
+	border-radius: 3px;
+	border-color: orange;
+
+}
+.beFirst{
+	text-align: center;
+	color: #a5a5a5;
+	padding-top: 30px;
+	font-size: 12pt;
+	padding-bottom: 30px;
+}
+.DISQUS{
+	color: #a5a5a5;
+}
+.DISQUS>ul>li{
+	text-decoration: none;
+	display: inline;
+	padding-right: 5%;
+	float: left;
+	font-size: 11pt;
+	margin-left: -3%;
+}
+
+.disqusRight{
+	float: right;
+	font-weight: bold;
+	font-size: 16pt;
+}
+footer{
+	background-color: #5E6AC0;
+	margin-top: 3%;
+	padding: 5%;
+	text-align: center;
+}
+.logoFooter{
+	color:white;
+	font-family: PaloAlto;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 28pt;
+}
+.logoFooter>a{
+	text-decoration: none;
+	color: #545d96;
+}
+.logoFooter>a:hover{
+	color: red;
+}
+
+.active>a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #8794e5;
+}
+.active>a:hover{
+	color: red;
+}
+.footerMenu{
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+.footerMenu>ul{
+	list-style-type: none;
+	display: inline;
+	word-spacing: 500%;
+	text-transform: uppercase;
+}
+.footerMenu>ul>li{
+	display: inline;
+}
+.footerMenu>ul>li>a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+.footerMenu>ul>li>a:hover{
+	color:red;
+}
+.hrFooter{
+	width: 50%;
+	background-color: transparent;
+	border-top: 1px solid #545d96;
+	color: #545d96;
+}
+.footerDefinition{
+	padding-left: 25%;
+	padding-right: 25%;
+	color:#8794e5;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	line-height: 150%;
+}
+.footerDefinition>p>a{
+	color: white;
+	text-decoration: none;
+}
+
+.footerSocialNetworkButtons{
+	text-align: center;
+	letter-spacing: 10px;
+}
+.footerSocialNetworkButtons>a{
+	color: white;
+	text-decoration: none;
+	font-size: 20pt;
+}
+.footerSocialNetworkButtons>a:hover{
+	color: red;
+}
+
+*{
+	box-sizing: border-box;
+}
+@media screen and(max-width: 600px){
+
+	
+	body{
+		background-color: red;
+	}
+	.mainMenu{
+		padding-top:0%; 
+	}
+	
+}
+@media screen and (max-width: 480px){
+  body {
+
+  }
+  .Nav_mainMenu{
+  	display: none;
+  }
+  .Nav_mobileMenu{
+  	display: inline;
+  }
+  .bars{
+  	position: relative;
+  	float: right;
+  	padding-bottom: 10%;
+  }
+  .logo{
+  	float: left;
+  	padding-top: 5%;
+  }
+  .iDoReflect{
+  	font-size: 14pt;
+  	width: 30%;
+  	margin-left: 65%;
+  	padding: 2%;
+  	margin-top: -24px;
+  }
+  nav{
+  	width: 90%;
+  	margin-left: 5%;
+  	padding-bottom: 10%;
+  	padding-top: 8%;
+  }
+  .content{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
+  }
+  .date{
+  	font-size: 14pt;
+  	padding-top: 5%;
+  }
+  .heading{
+  	font-size: 12pt;
+  	line-height: 275%;
+  }
+  .statuePhoto{
+  	width: 100%;
+  	margin-left: 20%;
+  }
+  .article{
+  	font-size: 14pt;
+	padding-left: 5%;
+	padding-right: 5%;
+  }
+  .definition{
+  	line-height: 150%;
+  	padding-top: 0;
+  	padding-bottom: 0;
+  }
+  .articleUnderline{
+  	width: 100%;
+  	margin-left: -5.5%;
+  }
+  #tweet{
+  	
+  	width: 20%;
+  }
+
+  #facebook{
+  	
+  	width: 20%;
+  }
+  #googleplus{
+  	width: 20%;
+  }
+  #pinterest{
+  	
+  	width: 20%;
+
+  }
+  .hashtag{
+  	float: left;
+  }
+
+  .commentsLeft{
+  	float: left;
+	word-spacing: 10px;
+  }
+  .comments{
+  	padding-bottom: 5%;
+
+  }
+  .commentsRight{
+  	display: none;
+  }
+  .commentsUnderline{
+  	margin-top: 5%;
+  }
+  .textArea{
+  	padding-top: 10%;
+  	padding-bottom: 10%;
+  }
+  .disqusRight{
+  	display: none;
+  }
+  .submitArea{
+  	width: 75%;
+  	height: 60px;}
+  .submit{
+  	width: 20%;
+  	height: 20%;
+  	font-size: 36pt;
+  	background-color: orange;
+  	border-radius: 3px;
+  	border-color: orange;
+  }
+  .beFirst{
+  	text-align: center;
+  	color: #a5a5a5;
+  	padding-top: 30px;
+  	font-size: 12pt;
+  	padding-bottom: 30px;
+  }
+  .DISQUS{
+  	color: #a5a5a5;
+  }
+  .disqusRight{
+  	float: right;
+  	font-weight: bold;
+  	font-size: 16pt;
+  }
+  .hrFooter{
+  	width: 70%;
+  }
+  .footerDefinition{
+  	padding-left: 15%;
+  	padding-right: 15%;
+  }
+  .footerMenu{
+  	margin-top: 10%;
+  	margin-bottom: 10%;
+  }
+  .footerSocialNetworkButtons{
+  	padding-bottom: 10%;
+  }
+  .footerMenu>ul{
+  	text-align: center;
+  	margin-right: 10%;
+  }
+  .footerMenu>ul>li>a>i{
+  	display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+
+  }
+  .Nav_mainMenu{
+  	display: none;
+  }
+  .Nav_mobileMenu{
+  	display: inline;
+  }
+  .bars{
+  	position: relative;
+  	float: right;
+  	padding-bottom: 10%;
+  }
+  .logo{
+  	float: left;
+  	padding-top: 7.5%;
+  }
+  nav{
+  	padding-top: 10%;
+  	padding-bottom: 20%;
+  }
+  .heading{
+  	font-size: 9pt;
+  	line-height: 275%;
+  }
+  .iDoReflect{
+  	font-size: 12pt;
+  	width: 33%;
+  	margin-top: -6%;
+  	margin-left: 62%;
+  }
+  .statuePhoto{
+  	margin-left: 6%;
+  }
+  .article{
+  	font-size: 12pt;
+  }
+  #tweet{
+  	width: 45%;
+  	font-size: 12pt;
+  	margin: 2%;
+  }
+  #facebook{  	
+  	width: 45%;
+  	margin: 2%;
+  	font-size: 12pt;
+  }
+  #googleplus{
+  	width: 45%;
+  	margin: 2%;
+  	font-size: 12pt;
+  }
+  #pinterest{
+  	width: 45%;
+  	margin: 2%;
+  	font-size: 12pt;
+  }
+  .hashtag{
+  	float: left;
+  }
+  .DISQUS{
+  	padding-bottom: 10%;
+
+  	margin-left: -10%;
+  }
+  .DISQUS>ul>li{
+  	padding-right: 5%;
+  	float: left;
+  	font-size: 10pt;
+  }
+  .submitArea{
+  	width: 70%;
+  	height: 60px;
+  	font-size: 12pt;
+  	padding-top: 7.5%;
+  }
+  .submit{
+  	width: 25%;
+  	height: 27%;
+  	font-size: 30pt;
+  }
+  .footerMenu>ul>li{
+  	display:block;
+  	padding: 2%;
+  	margin-top: 1%;
+  	margin-bottom: 1%;
+  }
+}
