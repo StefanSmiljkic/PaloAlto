@@ -334,7 +334,13 @@ footer{
 .footerSocialNetworkButtons>a:hover{
 	color: red;
 }
-
+#searchResultHeading{
+  font-size: 30pt;
+}
+#searchResultHeading2{
+  font-size: 22pt;
+  color: gray;
+}
 *{
 	box-sizing: border-box;
 }
