@@ -336,9 +336,75 @@ footer{
 }
 #searchResultHeading{
   font-size: 30pt;
+  font-weight: normal;
 }
 #searchResultHeading2{
   font-size: 22pt;
+  color: gray;
+  font-weight: normal;
+}
+.readMore{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16pt;
+  text-transform: uppercase;
+  color: #5E6AC0;
+}
+.readMore:hover{
+  color: red;
+}
+.contentFooter{
+  margin-top: 5%;
+}
+.contentImg{
+  height: auto;
+  position: relative;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 5%;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px #c6c6c6;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+
+}
+.contentImgTop{
+  height: auto;
+  position: relative;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: -0.5%;
+}
+.video{
+  width: 70%;
+  margin-left: 15%;
+  height: 500px;
+  margin-bottom: -0.5%;
+}
+.articleItalic{
+  font-style: italic;
+  font-size: 18pt;
+  color: gray;
+  line-height: 140%;
+}
+.hashtagLeft{
+  float: left;
+  line-height: 0;
+  word-spacing: 10px;
+  color:#a5a5a5;
+}
+.quote{
+  width: 80%;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 140%;
+  font-size: 30pt;
+}
+.author{
+  font-size: 14pt;
+  font-weight: normal;
   color: gray;
 }
 *{
