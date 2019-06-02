@@ -407,6 +407,31 @@ footer{
   font-weight: normal;
   color: gray;
 }
+.pageNumeration{
+  text-align: center;  
+}
+.pageNumeration>ul{
+  list-style-type: none;
+}
+.pageNumeration>ul>li{
+    display: inline;
+    word-spacing: 2%;
+}
+
+.pageNumeration>ul>li>a{
+  text-decoration: none;
+  font-size: 14pt;
+  box-shadow: 0 0 10px #c6c6c6;
+  padding: 1%;
+}
+.pageNumeration>ul>li>a:hover{
+  background-color: red;
+  color: white;
+}
+.activeNumeration>a{
+  background-color: #3C5A99;
+  color: white;
+}
 *{
 	box-sizing: border-box;
 }
