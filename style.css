@@ -432,11 +432,39 @@ footer{
   background-color: #3C5A99;
   color: white;
 }
+.responsive{
+  width: 50%;
+  height: auto;
+}
+.gallery{
+
+  width: 110%;
+  margin-left: -7.5%;
+  margin-top: -5%;
+}
+.galleryImg{
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+}
+.galleryImg>img{
+  margin: 1%;
+}
+.break-column{
+  flex-basis: 100%;
+  width: 0;
+}
+.item{
+  flex-grow: 1;
+  flex-basis: 30%;
+}
 *{
 	box-sizing: border-box;
 }
 @media screen and(max-width: 600px){
-
+  .gallery{
+    height:600px; 
+  }
 	
 	body{
 		background-color: red;
