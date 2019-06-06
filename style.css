@@ -452,9 +452,7 @@ footer{
 .contentGallery{
   margin-top: 8%;
 }
-.date{
-  margin-left: 4%;
-}
+
 
 *{
 	box-sizing: border-box;
@@ -695,6 +693,9 @@ footer{
   }
   #searchResultHeading{
     font-size: 36pt;
+  }
+  .date{
+    margin-left: 4%;
   }
 }
 
