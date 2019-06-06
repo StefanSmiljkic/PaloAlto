@@ -433,31 +433,29 @@ footer{
   color: white;
 }
 .responsive{
-  width: 50%;
+  width: 48%;
   height: auto;
 }
 .gallery{
-
-  width: 110%;
-  margin-left: -7.5%;
-  margin-top: -5%;
-}
-.galleryImg{
   display: flex;
-  flex-direction: column;
-  flex-flow: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 118.5%;
+  margin-left: -8%;
+  margin-top: -8%;
+
 }
-.galleryImg>img{
-  margin: 1%;
+
+.gallery>img{
+  margin: 0.5%;
 }
-.break-column{
-  flex-basis: 100%;
-  width: 0;
+.contentGallery{
+  margin-top: 8%;
 }
-.item{
-  flex-grow: 1;
-  flex-basis: 30%;
+.date{
+  margin-left: 4%;
 }
+
 *{
 	box-sizing: border-box;
 }
@@ -626,6 +624,78 @@ footer{
   .footerMenu>ul>li>a>i{
   	display: none;
   }
+  .contentImg{
+    width: 90%;
+    margin-left: 5%;
+
+  }
+  .contentImgTop{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .quote{
+    width: 100%;
+    font-size: 24pt;
+    margin-top:8%;
+  }
+  .pageNumeration>ul>li>a{
+    font-size: 16pt;
+    padding: 2.5%;
+  }
+  .pageNumeration{
+    margin-top: 10%;
+    margin-bottom:10%;
+  }
+  .video{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .contentFooter{
+    padding-bottom: 10%;
+    padding-left: 4%;
+  }
+  .readMore{
+    float: left;
+  }
+  .hashtag{
+    position: absolute;
+    margin-top: 5%;
+  }
+  .responsive{
+    width: 100%;
+    height: auto;
+  }
+  .hideImg{
+    display: none;
+  }
+  .gallery{
+    width: 110%;
+    margin-left: -5%;
+    margin-top: -5%;
+
+  }
+
+  .gallery>img{
+    margin: 0.5%;
+  }
+  .contentGallery{
+    margin-top: 8%;
+  }
+  .article{
+    margin-left: -1%;
+    margin-right: -1%;
+  }
+  .heading{
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .articleItalic{
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  #searchResultHeading{
+    font-size: 36pt;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -657,9 +727,9 @@ footer{
   }
   .iDoReflect{
   	font-size: 12pt;
-  	width: 33%;
+  	width: 35%;
   	margin-top: -6%;
-  	margin-left: 62%;
+  	margin-left: 60%;
   }
   .statuePhoto{
   	margin-left: 6%;
@@ -716,5 +786,23 @@ footer{
   	padding: 2%;
   	margin-top: 1%;
   	margin-bottom: 1%;
+  }
+  .article{
+    font-size: 14pt;
+  }
+  .articleItalic{
+    font-size: 16pt;
+  }
+  .date{
+    font-size: 14pt;
+  }
+  #searchResultHeading{
+    font-size: 26pt;
+  }
+  .contentFooter{
+    padding-bottom: 20%;
+  }
+  .hashtag{
+    padding-top: 5%;
   }
 }
